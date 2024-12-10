@@ -1,0 +1,8 @@
+google-generativeai
+python-dotenv
+chromadb
+faiss-cpu
+langchain_google_genai
+langchain_community
+pytesseract
+python-dotenv

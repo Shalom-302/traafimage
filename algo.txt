@@ -1,0 +1,12 @@
+1  - creer une route post qui prend en entree une url et qui retourne un json
+2 - dans la fonction de la route post il faut une fonction get_image_text avec pytesseract
+qui sera appelle pour extraire le texte dans limage puis retourner le texte a gemini
+3- gemini maintenant va se baser sur un prompt template pour retourner le json 
+exemple de lien : https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/469403967_882146307432385_10723387658538[…]OL03EWDRTvjzYfLgXXS63o9RfdplSgFUr128QbCqkw&oe=67587CAD
+{
+    "hashtag": hashtag,
+    "location": location,
+    "description": description,
+    "date": date
+ } 
+tout ca avec langchain et fastapi
